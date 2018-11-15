@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-adoptapet",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "AAP's ESLint plugin",
   "keywords": [
     "adoptapet",
