@@ -12,6 +12,7 @@ $ npm i eslint-config-adoptapet
 ```js
 // .eslintrc.js
 "extends": [
-  "plugin:adoptapet/base"
+  "plugin:adoptapet/base", // For JS linting
+  "plugin:adoptapet/vue" // For Vue linting (if using Vue)
 ]
 ```
