@@ -1,23 +1,22 @@
 {
   "name": "eslint-plugin-adoptapet",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "AAP's ESLint plugin",
   "keywords": [
+    "adoptapet",
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
   "author": "Kevin",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha test --recursive"
-  },
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.1.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^4.7.1"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "eslint": "~3.9.1"
   },
   "engines": {
     "node": ">=0.8.0"
