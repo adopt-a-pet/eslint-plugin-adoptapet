@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-adoptapet",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "AAP's ESLint plugin",
   "keywords": [
     "adoptapet",
@@ -10,13 +10,29 @@
   ],
   "author": "Kevin",
   "main": "lib/index.js",
+  "scripts": {
+    "hook:pre-commit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run hook:pre-commit"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-vue": "^4.7.1"
   },
   "devDependencies": {
-    "eslint": "~3.9.1"
+    "eslint": "^5.6.1",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5"
   },
   "engines": {
     "node": ">=0.8.0"

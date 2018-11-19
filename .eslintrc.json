@@ -1,0 +1,6 @@
+{
+  "extends": "./lib/configs/base.js",
+  "rules": {
+    "global-require": "off"
+  }
+}
