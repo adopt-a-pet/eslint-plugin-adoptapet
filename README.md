@@ -1,10 +1,10 @@
-# eslint-config-adoptapet
+# eslint-plugin-adoptapet
 AAP's ESLint config
 
 ### Installation
 
 ```
-$ npm i eslint-config-adoptapet
+$ npm i eslint-plugin-adoptapet
 ```
 
 ### Usage
